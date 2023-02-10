@@ -19,7 +19,7 @@
             }}</a>
           </div>
         </div>
-        <a href="../../src/assets/files/resume.docx" download>
+        <a href="/files/resume.docx" download>
           <button class="download">DOWNLOAD CV</button>
         </a>
       </div>
