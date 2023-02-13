@@ -91,7 +91,7 @@ defineEmits(["contact"]);
 @keyframes leftIn {
   0% {
     opacity: 0;
-    transform: translatex(-20%);
+    transform: translatex(-80%);
   }
   20% {
     opacity: 0;
@@ -106,7 +106,7 @@ defineEmits(["contact"]);
 @keyframes rightIn {
   0% {
     opacity: 0;
-    transform: translatex(20%);
+    transform: translatex(80%);
   }
   20% {
     opacity: 0;
