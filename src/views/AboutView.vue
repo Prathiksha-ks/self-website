@@ -37,7 +37,7 @@ const personalInfo = [
   },
   {
     title: "Age",
-    description: "24",
+    description: "25",
   },
   {
     title: "Address",
