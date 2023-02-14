@@ -1,7 +1,7 @@
 <template>
   <OutsideWrapper class="about">
     <div class="wrapper">
-      <img class="image browser" src="@/assets/self.jpg" alt="self-img" />
+      <img class="image browser" src="@/assets/self2.jpg" alt="self-img" />
       <div class="content">
         <h1 class="header">HELLO! I'M PRATHIKSHA</h1>
         <p class="main-description">
@@ -10,7 +10,7 @@
           Currently working at Robosoft Technologies Pvt Ltd as Software
           Engineer.
         </p>
-        <img class="image phone" src="@/assets/self.jpg" alt="self-img" />
+        <img class="image phone" src="@/assets/self2.jpg" alt="self-img" />
         <div class="personal-info">
           <div class="info" v-for="info in personalInfo" :key="info.title">
             <p class="title">{{ info.title }}</p>

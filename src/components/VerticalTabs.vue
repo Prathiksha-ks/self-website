@@ -15,7 +15,7 @@
         <div class="content" @click.stop>
           <div class="top-content">
             <div class="self-name">
-              <img class="image" src="@/assets/self.jpg" alt="self-img" />
+              <img class="image" src="@/assets/self1.jpg" alt="self-img" />
               <p class="name" @click="closeVerticalTabsBar(Tabs.HOME)">
                 PRATHIKSHA
               </p>
@@ -93,6 +93,7 @@ const closeVerticalTabsBar = (clickedTab: Tabs): void => {
 
 .image {
   width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 2px solid #ffffff;
   box-shadow: 0px 0px 12px;
