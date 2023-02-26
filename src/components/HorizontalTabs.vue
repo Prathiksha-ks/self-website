@@ -35,7 +35,7 @@ const isClicked = (tab: Tabs): boolean => props.clickedTab === tab;
   align-items: center;
   justify-content: space-between;
   padding: 12px 34px;
-  background-color: #070f1f;
+  background-color: $background-color;
   width: 100%;
   position: fixed;
   top: 0;
@@ -46,11 +46,11 @@ const isClicked = (tab: Tabs): boolean => props.clickedTab === tab;
   font-size: 20px;
   font-family: Gill sans-serif;
   animation: 1.5s leftIn ease-out;
-  color: #50c8f0;
+  color: $header;
   cursor: pointer;
 
   span {
-    color: #ffffff;
+    color: $title;
   }
 }
 
@@ -81,7 +81,7 @@ const isClicked = (tab: Tabs): boolean => props.clickedTab === tab;
 }
 
 .clicked {
-  color: #50c8f0;
+  color: $header;
 }
 
 @media screen and (max-width: 860px) {

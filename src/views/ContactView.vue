@@ -193,7 +193,7 @@ watch(showToastMessage, () => {
 input,
 textarea {
   width: 100%;
-  color: white;
+  color: $title;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 16px;
   font-size: 14px;
@@ -219,11 +219,11 @@ textarea {
 
 .toast-message {
   margin: 24px auto;
-  background-color: #50c8f0;
+  background-color: $header;
   padding: 16px;
   border-radius: 8px;
   font-size: 14px;
-  color: #000000;
+  color: $background-color;
   width: fit-content;
 }
 
@@ -275,7 +275,7 @@ textarea {
 
   .message-content {
     width: 100%;
-    margin: 24px 0;
+    margin: 24px 0 32px;
   }
 
   form {

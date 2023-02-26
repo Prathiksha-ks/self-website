@@ -68,8 +68,8 @@ const navToNextPage = (): void => {
 <style lang="scss" scoped>
 .app {
   height: 100vh;
-  color: #ffffff;
-  background-color: #070f1f;
+  color: $title;
+  background-color: $background-color;
 }
 
 .bottom-content {
@@ -91,7 +91,7 @@ const navToNextPage = (): void => {
 
 .tab-name {
   font-size: 18px;
-  color: #50c8f0;
+  color: $header;
 }
 
 @media screen and (max-width: 767px) {

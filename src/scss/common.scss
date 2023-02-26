@@ -3,19 +3,14 @@ button {
   border: 2px solid;
   padding: 12px;
   margin-top: 40px;
-  color: #50c8f0;
-  background-color: #070f1f;
+  color: $header;
+  background-color: $background-color;
   cursor: pointer;
-
-  &.fill {
-    color: #000000;
-    background-color: #50c8f0;
-  }
 }
 
 .header {
   font-size: 22px;
-  color: #50c8f0;
+  color: $header;
   letter-spacing: 2px;
   padding-bottom: 24px;
 }
@@ -31,7 +26,7 @@ button {
 
 .description {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: $description;
 }
 
 @media screen and (max-width: 767px) {

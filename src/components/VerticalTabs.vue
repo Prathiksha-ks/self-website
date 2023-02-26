@@ -84,7 +84,7 @@ const closeVerticalTabsBar = (clickedTab: Tabs): void => {
   width: 250px;
   padding: 32px 16px 12px;
   overflow-y: scroll;
-  background-color: #070f1f;
+  background-color: $background-color;
 }
 
 .self-name {
@@ -104,7 +104,7 @@ const closeVerticalTabsBar = (clickedTab: Tabs): void => {
   font-size: 16px;
   font-family: Gill sans-serif;
   letter-spacing: 1px;
-  color: #50c8f0;
+  color: $header;
 }
 
 .description {
@@ -132,11 +132,11 @@ const closeVerticalTabsBar = (clickedTab: Tabs): void => {
 }
 
 .clicked {
-  color: #50c8f0;
+  color: $header;
 
   .dot {
-    background-color: #50c8f0;
-    border-color: #50c8f0;
+    background-color: $header;
+    border-color: $header;
   }
 }
 

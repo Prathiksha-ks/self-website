@@ -92,12 +92,12 @@ const isSkills = (header: string): boolean => header === "SKILLS";
   width: 100%;
 
   &.outside {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: $description;
     margin-top: 16px;
   }
 
   .inside {
-    background-color: #50c8f0;
+    background-color: $header;
   }
 }
 

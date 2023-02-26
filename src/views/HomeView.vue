@@ -35,8 +35,8 @@ defineEmits(["contact"]);
   margin: 12px auto;
   font-size: 30px;
   letter-spacing: 12px;
-  color: #000000;
-  background-color: #50c8f0;
+  color: $background-color;
+  background-color: $header;
   width: fit-content;
 }
 
